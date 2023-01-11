@@ -6,10 +6,10 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <Router basename="/">
-      <Header/>
+    <Router basename="/ecommerce-product-page-main">
+      <Header />
       <Routes>
-        <Route path="/" element={<Product/>} />
+        <Route path="/" element={<Product />} />
       </Routes>
     </Router>
   );
